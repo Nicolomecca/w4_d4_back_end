@@ -27,7 +27,7 @@ public class OrdersRunner implements CommandLineRunner {
             o1.addItem(ctx.getBean("lemonade", Drink.class));
             o1.addItem(ctx.getBean("wine", Drink.class));
 
-            System.out.println("DETTAGLI TAVOLO 1:");
+            System.out.println("DETTAGLI TAVOLO 1::");
             o1.print();
 
             System.out.println("CONTO TAVOLO 1");
